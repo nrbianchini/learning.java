@@ -7,7 +7,7 @@ package bianchini.nathalia.learningjava.introduction;
     "Eu <nome>, morando no endereço <endereço>,
     confirmo que recebi o salário de R$ <salário>, na data <data>.
  */
-public class aula03TiposPrimitivosExercício {
+public class aula03TiposPrimitivosExercicio {
     public static void main(String[] args) {
         String name = "Nathalia";
         String address = "Rua Julio Mori";
