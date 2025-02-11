@@ -16,4 +16,20 @@ public class calculator {
     public double divideTwoNumbers(double number1, double number2) {
         return number1 / number2;
     }
+
+    public void sumArray(int [] nums){
+        int sum = 0;
+        for(int aux : nums){
+            sum += aux;
+        }
+        System.out.println(sum);
+    }
+
+    public void sumVarArgs(int... nums){
+        int sum = 0;
+        for(int aux : nums){
+            sum += aux;
+        }
+        System.out.println(sum);
+    }
 }
